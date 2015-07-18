@@ -8,4 +8,4 @@ title: Jekyll templates docs
 
 <p class="description">{{ page.date | date_to_string }}</p>
 
-<a herf="http://jekyllrb.com/docs/templates/">http://jekyllrb.com/docs/templates/</a>
+"http://jekyllrb.com/docs/templates/":http://jekyllrb.com/docs/templates/
