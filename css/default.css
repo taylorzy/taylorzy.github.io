@@ -7,6 +7,8 @@
 }
 
 #logo {
+	float: right;
+	margin: -65px 10px -30px -50px;
 	background: url('/images/tiji.png');
 	width: 300px;
 	height: 250px; 
