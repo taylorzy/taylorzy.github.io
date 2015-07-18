@@ -1,0 +1,15 @@
+/*** Main wrap and header ***/
+
+#wrap {
+	color:#f4f4f4;
+	margin:10px auto;
+	padding:0;
+	width:670px;
+}
+
+#logo {
+	margin: -65px 10px -30px -50px;
+	float:right;
+	background: url('/images/tiji.png');
+	height: 600px; width:500px;
+}
