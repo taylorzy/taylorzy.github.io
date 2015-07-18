@@ -26,3 +26,7 @@ a:hover {
 .lightGrayBackground {
 	background: #ededed;
 }
+
+.bottomLine {
+	border-bottom: 1px solid;
+}
