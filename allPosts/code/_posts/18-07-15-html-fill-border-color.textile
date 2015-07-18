@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML fill border color solid"
+title: HTML fill border color solid
 ---
 
 <h2>{{ page.title }}</h2>
