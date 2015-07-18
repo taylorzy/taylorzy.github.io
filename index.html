@@ -17,7 +17,7 @@ title: Taylor's Tech Blog
 	{{site.categories}}
 </p>
 <ul>
-	{% for post in site.categories.code.posts %}
+	{% for post in site.categories.code %}
 	<li>
 		{{ post.date | date_to_string }}
 		<a herf="{{ post.url }}" > {{ post.title }} </a>
