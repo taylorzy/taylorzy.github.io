@@ -27,6 +27,11 @@ a:hover {
 	background: #ededed;
 }
 
-.bottomLine {
-	border-bottom: 1px solid;
+h2 {
+	border-bottom:1px solid;
+	font-size:1.7em;
+	font-weight:100;
+	letter-spacing:-1px;
+	margin:0 0 10px;
+	padding:0px 2px 4px 5px;
 }
