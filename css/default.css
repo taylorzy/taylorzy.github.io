@@ -58,10 +58,10 @@ body {
 }
 
 ul.posts {
+	margin: 10px -40px;
 	list-style-type: none;	
 }
 
 ul.posts li a {
-	margin: 10px -40px;
 	font-weight:200;
 }
