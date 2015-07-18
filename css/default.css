@@ -56,3 +56,11 @@ body {
 .lightBlue {
 	color: #18a2bf;
 }
+
+ul.posts li span {
+	list-style: none;	
+}
+
+ul.posts li a { 
+	font-weight:200;
+}

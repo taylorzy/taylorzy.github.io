@@ -2,21 +2,8 @@
 layout: default
 title: Taylor's Tech Blog
 ---
-<ul>
-	{% for post in site.posts %}
-	<li>
-		{{ post.date | date_to_string }}
-		<a herf="{{ post.url }}" > {{ post.title }} </a>
-	</li>
-	{% endfor %}
-</ul>
-
 <h2 class="bottomLine lightBlue">Code</h2>
-
-<p>
-	{{site.categories}}
-</p>
-<ul>
+<ul class="posts">
 	{% for post in site.categories.code %}
 	<li>
 		{{ post.date | date_to_string }}
@@ -26,7 +13,7 @@ title: Taylor's Tech Blog
 </ul>
 
 <h2 class="bottomLine lightBlue">Resources</h2>
-<ul>
+<ul class="posts">
 	{% for post in site.categories.resources.posts %}
 	<li>
 		{{ post.date | date_to_string }}
