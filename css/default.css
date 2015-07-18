@@ -14,15 +14,15 @@
 	height: 250px; 
 }
 
-a {
-	color:black;
-	font-weight:700;
-	text-decoration:none;
+.title a {
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
 }
 
-a:hover {
-	text-decoration:underline;
-	color: #black;
+.title a:hover {
+	text-decoration: underline;
+	color: black;
 }
 
 body {
@@ -38,18 +38,15 @@ body {
 	width: 330px;
 }
 
-.slogan a { 
+.slogan a {
+	color: #18a2bf;
 	padding:3px; 
 	line-height: 2.5em; 
 }
 
 .slogan {
 	color:gray;
-	font-size:1.5em;
 	font-weight:700;
-	letter-spacing:-1px;
-	line-height:1.2em;
-	margin:-15px 0 60px 0px;
 }
 
 .slogan div {
