@@ -27,9 +27,31 @@ a:hover {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #80BFFF;
 }
 
 .bottomLine {
 	border-bottom: 1px solid gray;
+}
+
+.description {
+	color: #A2A2A2;
+	width: 330px;
+}
+
+.slogan a { 
+	padding:3px; 
+	line-height: 2.5em; 
+}
+
+.slogan {
+	color:gray;
+	font-size:1.5em;
+	font-weight:700;
+	letter-spacing:-1px;
+	line-height:1.2em;
+	margin:-15px 0 60px 0px;
+}
+
+.slogan div {
+	display:inline;
 }
