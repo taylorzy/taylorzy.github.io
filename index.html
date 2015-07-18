@@ -3,6 +3,10 @@ layout: default
 title: Taylor's Tech Blog
 ---
 <h2 class="bottomLine lightBlue">Code</h2>
+
+<ul>
+	{{site.categories}}
+</ul>>
 <ul>
 	{% for post in site.categories.code.posts %}
 	<li>
