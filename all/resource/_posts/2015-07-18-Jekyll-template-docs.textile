@@ -1,0 +1,6 @@
+---
+layout: post
+title: Jekyll templates docs
+---
+
+<a herf="http://jekyllrb.com/docs/templates/">http://jekyllrb.com/docs/templates/</a>
