@@ -54,7 +54,7 @@ div:before,div:after {
   transform:rotate(144deg)
 }
 .c80 {
-    border-color:tomato;
+  border-color:tomato;
   border-left-color:black;
 }
 .c80:before {
