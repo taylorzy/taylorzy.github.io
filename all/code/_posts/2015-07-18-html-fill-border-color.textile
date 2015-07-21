@@ -7,10 +7,10 @@ title: HTML fill border color solid
 
 <p class="description">{{ page.date | date_to_string }}</p>
   
-<p>
-  CSS: 
-</p>
-<pre class="prettyprint">
+
+CSS: 
+
+{% highlight scss %}
 div {
   height:200px;
   width:200px;
@@ -62,16 +62,16 @@ div:before,div:after {
   transform:rotate(18deg)
 }
 body {background: #456;}
-</pre>
-<p>
-  HTML: 
-</p>
-<pre class="prettyprint ">
+{% endhighlight %}
+
+HTML: 
+
+{% highlight html %}
 <div class="c30">c30</div>
 <div class="c40">c40</div>
 <div class="c50">c50</div>
 <div class="c80"><span>c80</span></div>
 <p>i.e. calculate rotation needed : 30%-25% = 5% of 360deg equals 18deg to increase rotation of one border to add those 5.%</p>
-</pre>
+{% endhighlight %}
 
 <img src="/images/fillBorder.png"></img>

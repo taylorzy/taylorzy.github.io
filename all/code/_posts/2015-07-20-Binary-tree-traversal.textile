@@ -8,7 +8,8 @@ title: Binary tree traversal
 <p class="description">{{ page.date | date_to_string }}</p>
 
 TreeNode Class:
-<pre class="prettyprint">
+
+{% highlight java linenos %}
 public class TreeNode {
   private TreeNode right;
   private TreeNode left;
@@ -32,10 +33,11 @@ public class TreeNode {
     System.out.print(" " + val);
   }
 }
-</pre>
+{% endhighlight %}
 
 Three Traversal Orders:
-<pre class="prettyprint">
+
+{% highlight java linenos %}
 public class TraverseBinaryTree {
   public void preOrder(TreeNode root) {
     if (root == null)
@@ -58,4 +60,4 @@ public class TraverseBinaryTree {
     root.printNodeValue();
   }
 }
-</pre>
+{% endhighlight %}

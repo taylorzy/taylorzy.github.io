@@ -2,24 +2,35 @@
 layout: default
 title: Taylor's Tech Blog
 ---
-<h2 class="bottomLine lightBlue">Code</h2>
-<ul class="posts">
-	{% for post in site.categories.code %}
-	<li>
-		<span>{{ post.date | date_to_string }}</span>
-		 &raquo; 
-		 <a href="{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul>
 
-<h2 class="bottomLine lightBlue">Resource</h2>
-<ul class="posts">
-	{% for post in site.categories.resource %}
-	<li>
-		<span>{{ post.date | date_to_string }}</span>
-		 &raquo; 
-		 <a href="{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th colspan="2" class="categoryTitle">Code</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for post in site.categories.code %}
+		<tr>
+			<td width="100px">{{ post.date | date_to_string }}</td>
+			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th colspan="2" class="categoryTitle">Resource</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for post in site.categories.resource %}
+		<tr>
+			<td width="100px">{{ post.date | date_to_string }}</td>
+			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
