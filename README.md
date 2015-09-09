@@ -1,3 +1,4 @@
 # blog
 
-My technique blog
+Please visit:
+http://taylorzy.github.io/
